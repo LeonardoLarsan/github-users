@@ -16,8 +16,19 @@ export const UserSearchToolComponent: FC<IUserSearchToolComponentProps> = props 
 
     return (
         <>
-            <TextField id="outlined-basic" variant="outlined" value={props.searchValue} onChange={e => props.onChangeSearchValue(e.target.value)} />
-            <LoadingButton loading={props.isLoading} startIcon={<SearchIcon />} variant="contained" onClick={props.onClickSearch}>Buscar</LoadingButton>
+            <TextField
+                label="Busqueda"
+                variant="outlined" 
+                value={props.searchValue} 
+                onChange={e => props.onChangeSearchValue(e.target.value)} 
+            />
+            <LoadingButton
+                data-testid="search-button"
+                loading={props.isLoading}
+                startIcon={<SearchIcon />} 
+                variant="contained" 
+                onClick={props.onClickSearch}>Buscar
+            </LoadingButton>
         </>
     )
 }

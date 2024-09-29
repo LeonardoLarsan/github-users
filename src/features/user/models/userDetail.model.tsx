@@ -17,14 +17,14 @@ export interface IUserDetailModel {
     received_events_url: string
     type: string
     site_admin: boolean
-    name: string
-    company: string
+    name: string | null
+    company: string | null
     blog: string
-    location: string
+    location: string | null
     email: any
     hireable: any
     bio: any
-    twitter_username: string
+    twitter_username: string | null
     public_repos: number
     public_gists: number
     followers: number

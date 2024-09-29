@@ -30,7 +30,12 @@ export const UserResumeCardComponent: FC<IUserResumeCardComponentProps> = props 
                         <VisibilityIcon />
                     </IconButton>
                 </Link>
-                <LoadingButton loading={props.isLoadingSetFavorite} color={props.userResume.favorite ? 'warning' : 'inherit'} onClick={() => props.onClickFavorite(props.userResume)}>
+                <LoadingButton 
+                    data-testid={`favoriteButton-${props.userResume.id}`} 
+                    loading={props.isLoadingSetFavorite} 
+                    color={props.userResume.favorite ? 'warning' : 'inherit'} 
+                    onClick={() => props.onClickFavorite(props.userResume)}
+                >
                     <StarIcon />
                 </LoadingButton>
             </CardActions>

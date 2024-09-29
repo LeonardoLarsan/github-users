@@ -14,7 +14,10 @@ interface IUseFavoriteServiceProps {
 export const useFavoriteService = (props: IUseFavoriteServiceProps): IUserFavoriteService => {
 
     const setFavoriteUser: IUserFavoriteService['setFavoriteUser'] = async (user) => {
-        const response = props.restClientUtil.patch<null, null>('/api/users', {login: user.login, favorite: user.favorite })
+        const response = props.restClientUtil.patch<null, null>({
+            url: '/api/users', 
+            payload: {login: user.login, favorite: user.favorite }
+        })
         return response
     }
     

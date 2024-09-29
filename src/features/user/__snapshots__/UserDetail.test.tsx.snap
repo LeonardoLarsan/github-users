@@ -1,0 +1,1021 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`userDetailModule > firstRenderUseCase 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    style="padding: 1%;"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-6fm6rz-MuiPaper-root-MuiCard-root"
+      style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+    >
+      <img
+        alt="green iguana"
+        class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-kqfc7p-MuiCardMedia-root"
+        height="500"
+        src="https://avatars.githubusercontent.com/u/16293771?v=4"
+      />
+      <div
+        class="MuiCardActions-root MuiCardActions-spacing css-xm0xqa-MuiCardActions-root"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeLarge MuiButton-textSizeLarge MuiButton-colorInherit MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeLarge MuiButton-textSizeLarge MuiButton-colorInherit css-1dhkxv-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+          data-testid="favoriteButton"
+          id=":r0:"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiLoadingButton-label css-10t8d3l-MuiLoadingButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-19vn4a9-MuiSvgIcon-root"
+              data-testid="StarIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-v73c9r-MuiPaper-root-MuiTableContainer-root"
+          style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+        >
+          <table
+            aria-label="simple table"
+            class="MuiTable-root css-quj9j6-MuiTable-root"
+          >
+            <tbody
+              class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+            >
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  login
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  Majombo
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  id
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  16293771
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  node_id
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  MDQ6VXNlcjE2MjkzNzcx
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  avatar_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://avatars.githubusercontent.com/u/16293771?v=4
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  gravatar_id
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  html_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://github.com/Majombo
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  followers_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/followers
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  following_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/following{/other_user}
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  gists_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/gists{/gist_id}
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  starred_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/starred{/owner}{/repo}
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  subscriptions_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/subscriptions
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  organizations_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/orgs
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  repos_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/repos
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  events_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/events{/privacy}
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  received_events_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/received_events
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  type
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  User
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  site_admin
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  No
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  name
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  company
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  blog
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  location
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  email
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  hireable
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  bio
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  twitter_username
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  public_repos
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  0
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  public_gists
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  0
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  followers
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  0
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  following
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  0
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  created_at
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  2015-12-14T17:59:45Z
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  updated_at
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  2016-02-28T15:20:52Z
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  favorite
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  No
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`userDetailModule > setFavoriteUserUseCase 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    style="padding: 1%;"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-6fm6rz-MuiPaper-root-MuiCard-root"
+      style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+    >
+      <img
+        alt="green iguana"
+        class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-kqfc7p-MuiCardMedia-root"
+        height="500"
+        src="https://avatars.githubusercontent.com/u/16293771?v=4"
+      />
+      <div
+        class="MuiCardActions-root MuiCardActions-spacing css-xm0xqa-MuiCardActions-root"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textWarning MuiButton-sizeLarge MuiButton-textSizeLarge MuiButton-colorWarning MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textWarning MuiButton-sizeLarge MuiButton-textSizeLarge MuiButton-colorWarning css-1inw893-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+          data-testid="favoriteButton"
+          id=":r0:"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiLoadingButton-label css-10t8d3l-MuiLoadingButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-19vn4a9-MuiSvgIcon-root"
+              data-testid="StarIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-v73c9r-MuiPaper-root-MuiTableContainer-root"
+          style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+        >
+          <table
+            aria-label="simple table"
+            class="MuiTable-root css-quj9j6-MuiTable-root"
+          >
+            <tbody
+              class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+            >
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  login
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  Majombo
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  id
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  16293771
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  node_id
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  MDQ6VXNlcjE2MjkzNzcx
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  avatar_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://avatars.githubusercontent.com/u/16293771?v=4
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  gravatar_id
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  html_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://github.com/Majombo
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  followers_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/followers
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  following_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/following{/other_user}
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  gists_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/gists{/gist_id}
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  starred_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/starred{/owner}{/repo}
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  subscriptions_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/subscriptions
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  organizations_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/orgs
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  repos_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/repos
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  events_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/events{/privacy}
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  received_events_url
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  https://api.github.com/users/Majombo/received_events
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  type
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  User
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  site_admin
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  No
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  name
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  company
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  blog
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  location
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  email
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  hireable
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  bio
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  twitter_username
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                />
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  public_repos
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  0
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  public_gists
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  0
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  followers
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  0
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  following
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  0
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  created_at
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  2015-12-14T17:59:45Z
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  updated_at
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  2016-02-28T15:20:52Z
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root css-34nofg-MuiTableRow-root"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-174q18p-MuiTableCell-root"
+                >
+                  favorite
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1tti7u1-MuiTableCell-root"
+                >
+                  Yes
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

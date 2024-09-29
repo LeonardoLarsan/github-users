@@ -54,7 +54,6 @@ const UserListModule: FC<IUserListFeatureProps> = props => {
                         </Grid>
                     ))}
                 </Grid>
-
             </Grid>
         </Container>
     )

@@ -11,7 +11,7 @@ export const getServerSideProps: GetServerSideProps<{preloadUserList: Array<IUse
 
   const envVarsUtil = useEnvVars()
   const restClientUtil = useRestClientUtil()
-  const response = await restClientUtil.get<Array<IUserResumeModel>, null>(`${envVarsUtil.baseApiUrl}/users`)
+  const response = await restClientUtil.get<Array<IUserResumeModel>, null>({url: `${envVarsUtil.baseApiUrl}/users`})
   
 
   if(response.isError) return {
@@ -37,7 +37,6 @@ interface IHomePageProps {
 
 const HomePage: FC<IHomePageProps> = (props) => {
 
-  //props.userStore.preloadUserList(props.preloadUserList)
 
   return (
     <>

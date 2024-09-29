@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const envVarsUtil = useEnvVars()
   const restClientUtil = useRestClientUtil()
 
-  const userListService = useUserListService({ baseApiUrl: envVarsUtil.baseApiUrl, restClientUtil})
+  const userListService = useUserListService({ restClientUtil })
   const userFavoriteService = useFavoriteService({restClientUtil})
 
   const userListStore = useUserListStore({userListService, userFavoriteService})

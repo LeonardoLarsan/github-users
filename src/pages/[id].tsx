@@ -15,7 +15,9 @@ export const getServerSideProps: GetServerSideProps<{userDetailPreload: IUserDet
 
   const envVarsUtil = useEnvVars()
   const restClientUtil = useRestClientUtil()
-  const response = await restClientUtil.get<IUserDetailModel, null>(`${envVarsUtil.baseApiUrl}/users/${id}`)
+  const response = await restClientUtil.get<IUserDetailModel, null>({
+    url:`${envVarsUtil.baseApiUrl}/users/${id}`
+  })
      
   
   if (response.isError) return {

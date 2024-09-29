@@ -8,8 +8,9 @@ const envVarsUtil = useEnvVars()
 const restClientUtil = useRestClientUtil()
 
 const searchUser = async (searchValue: string): Promise<TResponse<Array<IUserResumeModel>, null>> => {
-    const response = await restClientUtil.get<{ total_count: number, incomplete_results: boolean, items: Array<IUserResumeModel> }, null>
-    (`${envVarsUtil.baseApiUrl}/search/users?q=${searchValue}`)
+    const response = await restClientUtil.get<{ total_count: number, incomplete_results: boolean, items: Array<IUserResumeModel> }, null>({
+      url: `${envVarsUtil.baseApiUrl}/search/users?q=${searchValue}`
+    })
     if(response.isError) return {...response, data: null}
     return {...response, data: response.data.items}
 }

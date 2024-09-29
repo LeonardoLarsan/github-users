@@ -8,14 +8,14 @@ export interface IUserListService {
 }
 
 export interface IUserListServiceProps {
-    baseApiUrl: string
     restClientUtil: IRestClientUtil
 }
 
 export const useUserListService = (props: IUserListServiceProps): IUserListService => {
 
     const searchUserList: IUserListService['searchUserList'] = async (search) => {
-        const response = await props.restClientUtil.get<Array<IUserResumeModel>, null>(`/api/users?search=${search}`)
+        const response = await props.restClientUtil.get<Array<IUserResumeModel>, null>({
+            url: `/api/users?search=${search}`})
         return response
     }
 
