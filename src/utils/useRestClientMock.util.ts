@@ -8,7 +8,7 @@ interface IRestMock {
     payload: any
 }
 
-interface IRestClientMock extends IRestClientUtil {
+export interface IRestClientMock extends IRestClientUtil {
     setMockList: (mockList: Array<IRestMock>)=> void
 }
 

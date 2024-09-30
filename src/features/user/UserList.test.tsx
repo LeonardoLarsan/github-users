@@ -6,13 +6,8 @@ import { useRestClientMock } from '../../utils/useRestClientMock.util'
 import { useUserListStore } from './stores/userList.store'
 import { useFavoriteService } from './services/userFavorite.service'
 import { useUserListService } from './services/userList.service'
-import { useEnvVars } from '../../utils/useEnVars.util'
 import { userSearchListMock } from './mocks/userSearch.mock'
 import { createResponseUtil } from '../../utils/response.util'
-
-
-
-const envVarsUtil = useEnvVars()
 
 const restClientMock = useRestClientMock()
 restClientMock.setMockList([

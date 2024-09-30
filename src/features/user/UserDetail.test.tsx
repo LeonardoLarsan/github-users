@@ -3,28 +3,24 @@ import { render, act, RenderResult, fireEvent } from '@testing-library/react'
 import { UserDetailModule } from './UserDetail.module'
 import { useFavoriteService } from './services/userFavorite.service'
 import { useUserDetailStore } from './stores/userDetail.store'
-import { useRestClientMock } from '../../utils/useRestClientMock.util'
+import { IRestClientMock, useRestClientMock } from '../../utils/useRestClientMock.util'
 import { userDetailMock } from './mocks/userDetail.mock'
-import { createResponseUtil } from '../../utils/response.util'
+import { createResponseUtil, TResponse } from '../../utils/response.util'
+import { IUserDetailModel } from './models/userDetail.model'
 
-const restClientMock = useRestClientMock()
-restClientMock.setMockList([
-  {
-    toMachWithURL: '/api/users',
-    toMatchWithMethod: 'PATCH',
-    response: null,
-    payload: null
-  }
-])
 
-const Container = () => {
 
-  const userFavoriteService = useFavoriteService({ restClientUtil: restClientMock })
+const Container = (props: {
+  restClientMock: IRestClientMock
+  userDetailPreloadMock: TResponse<IUserDetailModel, null>
+}) => {
+
+  const userFavoriteService = useFavoriteService({ restClientUtil: props.restClientMock })
   const userDetailStore = useUserDetailStore({ userFavoriteService })
 
   return (
     <UserDetailModule 
-      userDetailPreload={createResponseUtil.success(userDetailMock, 200)}
+      userDetailPreload={props.userDetailPreloadMock}
       userDetailStore={userDetailStore}
     />
   )
@@ -32,8 +28,22 @@ const Container = () => {
 
 const firstRenderUseCase = async () => {
 
+  const restClientMock = useRestClientMock()
+  restClientMock.setMockList([
+    {
+      toMachWithURL: '/api/users',
+      toMatchWithMethod: 'PATCH',
+      response: null,
+      payload: null
+    }
+  ])
+
   const view = await act(async ()=> {
-    return render(<Container/>)
+    return render(
+      <Container 
+        restClientMock={restClientMock} 
+        userDetailPreloadMock={createResponseUtil.success(userDetailMock, 200)}
+      />)
   })
 
   expect(view.container).toMatchSnapshot('firstRenderUseCase')
@@ -50,10 +60,33 @@ const setFavoriteUserUseCase = async (view: RenderResult) => {
   expect(view.container).toMatchSnapshot('setFavoriteUserUseCase')  
 }
 
+const firstRenderWithErrorUseCase = async () => {
+
+  const restClientMock = useRestClientMock()
+  
+  restClientMock.setMockList([
+    {
+      toMachWithURL: '/api/users',
+      toMatchWithMethod: 'PATCH',
+      response: null,
+      payload: null
+    }
+  ])
+
+  const view = await act(async ()=> {
+    return render(<Container restClientMock={restClientMock} userDetailPreloadMock={createResponseUtil.error(null, 500)}/>)
+  })
+
+  expect(view.container).toMatchSnapshot('firstRenderWithErrorUseCase')
+
+  return view
+}
 
 test('userDetailModule', async () => {
- 
   const view = await firstRenderUseCase()
   await setFavoriteUserUseCase(view)
+})
 
+test('userDetailModule with Error', async () => {
+  await firstRenderWithErrorUseCase()
 })
