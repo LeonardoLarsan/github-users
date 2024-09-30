@@ -2,13 +2,15 @@ import { userDetailFactory } from '@/features/user/factories/user.factory';
 import { IUserDetailModel } from '@/features/user/models/userDetail.model';
 import { IUserDetailStore } from '@/features/user/stores/userDetail.store';
 import { UserDetailModule } from '@/features/user/UserDetail.module';
+import { TResponse } from '@/utils/response.util';
 import { useEnvVars } from '@/utils/useEnVars.util';
 import { useRestClientUtil } from '@/utils/useRestClient.util';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head'
 import { FC } from 'react';
 
-export const getServerSideProps: GetServerSideProps<{userDetailPreload: IUserDetailModel}> = async (context) => {
+
+export const getServerSideProps: GetServerSideProps<{userDetailPreload: TResponse<IUserDetailModel, null>}> = async (context) => {
 
   const { params } = context;
   const { id } = params as { id: string };
@@ -19,22 +21,21 @@ export const getServerSideProps: GetServerSideProps<{userDetailPreload: IUserDet
     url:`${envVarsUtil.baseApiUrl}/users/${id}`
   })
      
-  
-  if (response.isError) return {
+  if(response.isSuccess) return {
     props: {
-      userDetailPreload: userDetailFactory()
+      userDetailPreload: {...response, data: {...response.data, favorite: false}}
     }
   }
 
   return {
     props: {
-      userDetailPreload: {...response.data, favorite: false}
+      userDetailPreload: {...response}
     }
   }
 }
 
 interface IUserDetailPageProps {
-  userDetailPreload: IUserDetailModel
+  userDetailPreload: TResponse<IUserDetailModel, null>
   userDetailStore: IUserDetailStore
 }
 

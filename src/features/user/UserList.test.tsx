@@ -8,6 +8,7 @@ import { useFavoriteService } from './services/userFavorite.service'
 import { useUserListService } from './services/userList.service'
 import { useEnvVars } from '../../utils/useEnVars.util'
 import { userSearchListMock } from './mocks/userSearch.mock'
+import { createResponseUtil } from '../../utils/response.util'
 
 
 
@@ -42,11 +43,10 @@ const Container = () => {
   return (
     <UserListModule 
         userListStore={userListStore}
-        preloadUserList={{isSuccess: true, isError: false, data: userListMock, status: 200}}
+        preloadUserList={createResponseUtil.success(userListMock, 200)}
     />
   )
 }
-
 
 const firstRenderUseCase = async () => {
 

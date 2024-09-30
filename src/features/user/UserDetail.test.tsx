@@ -5,7 +5,7 @@ import { useFavoriteService } from './services/userFavorite.service'
 import { useUserDetailStore } from './stores/userDetail.store'
 import { useRestClientMock } from '../../utils/useRestClientMock.util'
 import { userDetailMock } from './mocks/userDetail.mock'
-import { userSearchListMock } from './mocks/userSearch.mock'
+import { createResponseUtil } from '../../utils/response.util'
 
 const restClientMock = useRestClientMock()
 restClientMock.setMockList([
@@ -24,13 +24,11 @@ const Container = () => {
 
   return (
     <UserDetailModule 
-      userDetailPreload={userDetailMock}
+      userDetailPreload={createResponseUtil.success(userDetailMock, 200)}
       userDetailStore={userDetailStore}
     />
   )
 }
-
-
 
 const firstRenderUseCase = async () => {
 
