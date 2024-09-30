@@ -42,7 +42,7 @@ const Container = () => {
   return (
     <UserListModule 
         userListStore={userListStore}
-        preloadUserList={userListMock}
+        preloadUserList={{isSuccess: true, isError: false, data: userListMock, status: 200}}
     />
   )
 }

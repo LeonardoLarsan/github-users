@@ -37,7 +37,7 @@ export const useUserListHook = (props: IUseUserListHookProps)=> {
 
     const onCloseErrorServerAlertHandler = () => setIsOpenServerErrorAlert(false)
 
-    const currentUserList = props.userListStore.userList.length ?   props.userListStore.userList  : props.preloadUserList 
+    const currentUserList = props.userListStore.userList.length ? props.userListStore.userList  : props.preloadUserList 
 
     return {
         currentUserList,
