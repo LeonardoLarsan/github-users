@@ -16,7 +16,6 @@ import { useUserListStore } from "@/features/user/stores/userList.store";
 
 export default function App({ Component, pageProps }: AppProps) {
 
-  const envVarsUtil = useEnvVars()
   const restClientUtil = useRestClientUtil()
 
   const userListService = useUserListService({ restClientUtil })
